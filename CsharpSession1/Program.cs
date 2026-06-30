@@ -16,5 +16,27 @@ class Program
         
         Console.WriteLine("Hello  " + UserName + "  welcome to Spark To Code"); */
         
+        //operations 
+        //arithmatic   
+        Console.WriteLine("enter the first number: "); 
+        float FirstNumner  = float.Parse(Console.ReadLine());
+        
+        Console.WriteLine("enter the second number: ");
+        float SecondNumner  = float.Parse(Console.ReadLine());
+        
+        float addtionresult = FirstNumner + SecondNumner;
+        float subresult = FirstNumner - SecondNumner;
+        float multiplicationresult = FirstNumner * SecondNumner;
+        float divisionresult = FirstNumner / SecondNumner;
+        float modlutionresult = FirstNumner % SecondNumner;
+
+        Console.WriteLine("Addtionresult: " + addtionresult);
+        Console.WriteLine("Subtractionresult: " + subresult);
+        Console.WriteLine("Multiplicationresult: " + multiplicationresult);
+        Console.WriteLine("Divisionresult: " + divisionresult);
+        Console.WriteLine("Modulutionresult: " + modlutionresult);
+        
+
+
     }
 }

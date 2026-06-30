@@ -18,7 +18,7 @@ class Program
         
         //operations 
         //arithmatic   
-         Console.WriteLine("enter the first number: "); 
+        /* Console.WriteLine("enter the first number: "); 
         float FirstNumner  = float.Parse(Console.ReadLine());
         
         Console.WriteLine("enter the second number: ");
@@ -38,12 +38,55 @@ class Program
         Console.WriteLine("Multiplication result: " + multiplicationresult);
         Console.WriteLine("Division result: " + divisionresult);
         Console.WriteLine("Modulution result: " + modlutionresult);
-        Console.WriteLine("Comparsion result : " + compasionResult);
+        Console.WriteLine("Comparsion result : " + compasionResult); 
+        */
         
-        //
+        //conditional statements 
+        Console.WriteLine("enter your degree  ");
+        float degree = float.Parse(Console.ReadLine());
 
+        /*if (degree < 50)
+        {
+            Console.WriteLine(" you failed ");
+            
+        }
+        else
+        {
+             Console.WriteLine("you passed ");
+        }
+        */
         
+        if (degree >= 0 && degree < 50)
+        {
+            Console.WriteLine(" you failed ");
+            
+        }
+        else if (degree >= 50 && degree <= 60 )
+        {
+            Console.WriteLine("you passed with grade D ");
+        }
+        else if (degree >= 60 && degree <= 70)
+        {
+            Console.WriteLine("you passed with grade C ");
+        }
+        else if (degree >= 70 && degree <= 80)
+            {
+            Console.WriteLine("you passed with grade B ");
+            }
+        else if (degree >= 80)
+        {
+            Console.WriteLine("you passed with grade A ");
+        }
+        else
+        {
+            Console.WriteLine("you entered wrong number  ");
+        }
+            
         
+
+
+
+
 
 
     }

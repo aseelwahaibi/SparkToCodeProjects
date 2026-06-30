@@ -18,7 +18,7 @@ class Program
         
         //operations 
         //arithmatic   
-        Console.WriteLine("enter the first number: "); 
+         Console.WriteLine("enter the first number: "); 
         float FirstNumner  = float.Parse(Console.ReadLine());
         
         Console.WriteLine("enter the second number: ");
@@ -29,12 +29,17 @@ class Program
         float multiplicationresult = FirstNumner * SecondNumner;
         float divisionresult = FirstNumner / SecondNumner;
         float modlutionresult = FirstNumner % SecondNumner;
+        //logical 
+        bool compasionResult = FirstNumner == SecondNumner;
+        
+        Console.WriteLine("Addtion result: " + addtionresult);
+        Console.WriteLine("Subtraction result: " + subresult);
+        Console.WriteLine("Multiplication result: " + multiplicationresult);
+        Console.WriteLine("Division result: " + divisionresult);
+        Console.WriteLine("Modulution result: " + modlutionresult);
+        Console.WriteLine("Comparsion result : " + compasionResult);
 
-        Console.WriteLine("Addtionresult: " + addtionresult);
-        Console.WriteLine("Subtractionresult: " + subresult);
-        Console.WriteLine("Multiplicationresult: " + multiplicationresult);
-        Console.WriteLine("Divisionresult: " + divisionresult);
-        Console.WriteLine("Modulutionresult: " + modlutionresult);
+        
         
 
 

@@ -29,6 +29,7 @@ class Program
         float multiplicationresult = FirstNumner * SecondNumner;
         float divisionresult = FirstNumner / SecondNumner;
         float modlutionresult = FirstNumner % SecondNumner;
+        
         //logical 
         bool compasionResult = FirstNumner == SecondNumner;
         
@@ -38,6 +39,8 @@ class Program
         Console.WriteLine("Division result: " + divisionresult);
         Console.WriteLine("Modulution result: " + modlutionresult);
         Console.WriteLine("Comparsion result : " + compasionResult);
+        
+        //
 
         
         

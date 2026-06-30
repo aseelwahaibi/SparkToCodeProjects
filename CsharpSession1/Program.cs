@@ -42,8 +42,8 @@ class Program
         */
         
         //conditional statements 
-        Console.WriteLine("enter your degree  ");
-        float degree = float.Parse(Console.ReadLine());
+        //Console.WriteLine("enter your degree  ");
+        //float degree = float.Parse(Console.ReadLine());
 
         /*if (degree < 50)
         {
@@ -56,7 +56,7 @@ class Program
         }
         */
         
-        if (degree >= 0 && degree < 50)
+        /* if (degree >= 0 && degree < 50)
         {
             Console.WriteLine(" you failed ");
             
@@ -80,9 +80,35 @@ class Program
         else
         {
             Console.WriteLine("you entered wrong number  ");
-        }
+        } */
             
+        //using switch = choice = options 
+
+        Console.WriteLine("welcome to main menu :  ");
+        Console.WriteLine("1.Deposit");
+        Console.WriteLine("2.withdraw");
+        Console.WriteLine("3.balance check");
         
+        Console.WriteLine("please choose an option:  ");
+        int option = int.Parse(Console.ReadLine());
+
+        switch (option)
+        {
+            case 1: 
+                Console.WriteLine("Deposit successful");
+                break;  
+            case 2:
+                Console.WriteLine("Withdraw successful");
+                break;
+            case 3:
+                Console.WriteLine("Balance check successful");
+                break;
+            default: 
+                Console.WriteLine("Invalid option");
+                break;
+        }
+
+
 
 
 

@@ -22,9 +22,20 @@ class Program
         ///////////////////////////////////////////////////////
         
         //task2 
+        Console.Write(" enter the Rectangle length:  ");
+        float length =  float.Parse(Console.ReadLine());
         
+        Console.Write(" enter the Rectangle Width:  ");
+        float width =  float.Parse(Console.ReadLine());
         
-        
+        float area = length * width;
+        float Perimeter = 2* (length + width);
+
+        Console.WriteLine(" The result of Area is :  " + area);
+        Console.WriteLine(" The Perimeter is :  " + Perimeter);
+
+
+
 
 
 
